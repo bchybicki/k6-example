@@ -9,11 +9,11 @@ A simple [k6](https://grafana.com/docs/k6/latest/) load test that hits the **req
 
 ## Running the test
 
-```bash
+```
 k6 run -e API_KEY=<your-api-key> test.js
 ```
 
-This will run **100 VUs** for **10 minutes** (~1 request/s per VU), print a summary to the terminal and generate an HTML report.
+This will run **100 VUs** for **5 minutes** (~1 request/s per VU), print a summary to the terminal and generate an HTML report.
 
 ## HTML Report
 
