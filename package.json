@@ -1,0 +1,22 @@
+{
+  "name": "k6-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchybicki/k6-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bchybicki/k6-example/issues"
+  },
+  "homepage": "https://github.com/bchybicki/k6-example#readme",
+  "devDependencies": {
+    "@types/k6": "^1.6.0",
+    "dotenv": "^17.3.1"
+  }
+}
