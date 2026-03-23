@@ -18,7 +18,7 @@
 - reqres.in is a free, shared public API - the results reflect its infrastructure limits (250 request/day for a free user).
 - Each VU executes a single GET request per second - no think-time variation or complex user flows.
 - The test was run from a local machine - network latency to reqres.in servers is included in all timing metrics.
-- As the scenario is supposed to simulate 100 concurrent users, and each user makes 1 request per second with no ramp-up, I'm assumimg this is supposed to be a Spike Test. 
+- As the scenario is supposed to simulate 100 concurrent users, and each user makes 1 request per second with no ramp-up, I'm assuming this is supposed to be a Spike Test. 
 - 5 minutes of testing can be sufficient to detect obvious issues such as connection pool exhaustion or rapid memory leaks. However, longer test durations and analysis of system and connection-level metrics are recommended to reliably identify slower-developing problems. Depending on our goal the duration would be different.
 
 ## 2. Captured Metrics
